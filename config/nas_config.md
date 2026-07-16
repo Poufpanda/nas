@@ -30,5 +30,6 @@ L'ensemble des services est orchestré par **Docker** et **Docker-Compose** pour
 ## Journal de Bord / Résolution de Problèmes (Troubleshooting)
 * **Symptôme / Problem :** Disque dur non reconnu par le BIOS et erreurs d'I/O lors des premiers boot / Harddrive was not recognized by the BIOS and I/O problems during the first boots
 * **Résolution / Solution :**
-*     1. Recherche de pièces sur des sites d'occasion / Searched pieces on second-hand websites.
-*     2. 
+*     1. Recherche de disque dur (SSD/HDD) / Searched for hard drive (SSD/HDD)
+*     2. Recherche de pc, cassé ou pas sur des sites d'occasion pour en récupérer les pièces / Searched for a computer, broken or not on second hand websites to gather pieces
+ 
