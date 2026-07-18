@@ -32,4 +32,5 @@ L'ensemble des services est orchestré par **Docker** et **Docker-Compose** pour
 * **Résolution / Solution :**
 *     1. Recherche de disque dur (SSD/HDD) / Searched for hard drive (SSD/HDD)
 *     2. Recherche de pc, cassé ou pas sur des sites d'occasion pour en récupérer les pièces / Searched for a computer, broken or not on second hand websites to gather pieces
+*     3. Remplacement du disque dur et confirmation de sa validité / Changed the hard drive and made sure it worked
  
