@@ -1,0 +1,48 @@
+# Radarr / Sonarr ne retrouvent pas un film ou une série téléchargé
+
+**Quand l'utiliser** : un film ou une série est bien téléchargé dans qBittorrent, mais n'apparaît ni dans Radarr / Sonarr ni dans Jellyfin. Cas typique : j'ai ajouté un lien magnet directement dans qBittorrent, sans passer par Radarr / Sonarr.
+**Pré-requis** : accès à l'interface web de qBittorrent, de Radarr et de Sonarr.
+
+## Principe
+Radarr et Sonarr ne surveillent pas tout ce que contient qBittorrent. Ils ne suivent que les téléchargements qui portent **leur étiquette** (ou catégorie, selon le champ configuré dans leur connexion à qBittorrent). Un téléchargement sans cette étiquette est ignoré : il reste dans `/media/downloads` et n'est jamais importé dans `/media/films` ou `/media/series`.
+
+Quand je passe par Radarr ou Sonarr, ils ajoutent l'étiquette tout seuls. Quand j'ajoute un magnet à la main, je dois le faire moi-même.
+
+## Étapes
+
+### 1. Vérifier que le fichier est bien téléchargé
+Dans qBittorrent, le téléchargement doit être à 100 % (état « Terminé » ou « Seed »).
+
+### 2. Trouver l'étiquette attendue
+- Dans Radarr : Settings, Download Clients, qBittorrent, champ **Category** (ou Tag).
+- Dans Sonarr : même chemin.
+
+Noter le texte exact, par exemple : `TV-radarr` pour les films, `Serie` pour les séries *(à vérifier avec mes réglages réels)*.
+
+### 3. Ajouter l'étiquette au téléchargement
+Dans qBittorrent : clic droit sur le torrent, puis **Étiquettes** (ou **Catégorie**), et choisir celle de l'étape 2. Elle doit être écrite **exactement** pareil, majuscules comprises.
+
+### 4. Laisser Radarr / Sonarr importer
+Au bout de quelques minutes, ils détectent le téléchargement terminé, puis le renomment et le rangent dans `/media/films` ou `/media/series`.
+
+Pour accélérer : dans Radarr / Sonarr, onglet **Activity**, puis **Queue**, puis **Refresh**.
+
+### 5. Si le film ou la série n'est pas dans la bibliothèque de Radarr / Sonarr
+Le magnet était peut-être pour un titre qu'ils ne suivent pas. Dans ce cas, d'abord **ajouter le titre** dans Radarr / Sonarr, puis refaire les étapes précédentes.
+
+## Vérifier que ça a marché
+- Le fichier est apparu dans `/media/films` ou `/media/series`.
+- Le titre passe en « Téléchargé » dans Radarr / Sonarr.
+- Jellyfin affiche le média (relancer une analyse de la bibliothèque si besoin).
+
+## Si ça ne marche pas
+- Vérifier que le texte de l'étiquette est strictement identique.
+- Dans Radarr / Sonarr, Activity, puis Queue : lire le message d'erreur éventuel.
+- Vérifier que les dossiers `/media/downloads` et `/media` sont montés de la même façon dans qBittorrent, Radarr et Sonarr.
+- Voir aussi [connexion-prowlarr-radarr-qbittorrent.md](connexion-prowlarr-radarr-qbittorrent.md).
+
+## Pour éviter le problème
+Toujours ajouter les films et séries depuis Radarr / Sonarr. Si je dois utiliser un magnet à la main, ajouter l'étiquette tout de suite.
+
+## Historique (ce qui m'est arrivé)
+Mes films étaient téléchargés mais invisibles. En fouillant dans qBittorrent, j'ai découvert l'onglet des étiquettes et compris qu'il m'en fallait une pour que Radarr et Sonarr retrouvent leurs téléchargements.
