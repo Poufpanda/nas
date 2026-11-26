@@ -12,10 +12,10 @@ Bot Python relié à Wazuh qui me prévient dès qu'une alerte de niveau 9 ou pl
   - état des conteneurs Docker
 
 ## Installation
-- Lancé avec (à compléter : Docker, service systemd ou script lancé à la main)
-- Plateforme de messagerie : (à compléter : Discord, Telegram...)
+- Lancé avec discord, via un token
+- Plateforme de messagerie : Discord
 - Code source : (lien vers le dépôt)
-- Comment il lit les alertes Wazuh : (à compléter : lecture du fichier d'alertes, API Wazuh, ou autre)
+- Comment il lit les alertes Wazuh : regarde dans les logs locaux a chaque update des logs
 
 ## Données et configuration
 - Configuration et secrets dans un fichier `.env` (non publié dans le dépôt)
@@ -24,9 +24,9 @@ Bot Python relié à Wazuh qui me prévient dès qu'une alerte de niveau 9 ou pl
 ## Sécurité
 - Exposé sur Internet : non, il initie seulement des connexions sortantes
 - Le token est stocké hors du dépôt ; s'il fuit, je le régénère
-- Seul mon compte est autorisé à utiliser les commandes (à compléter : confirmer que c'est bien vérifié dans le code)
+- Seul ceux qui ont acces a mon bot peuvent lui envoyer des commandes predefinies
 - Les commandes sont en lecture seule : elles affichent des informations, elles ne modifient rien
-- À améliorer : (à compléter)
 
 ## Problèmes rencontrés
-- ...
+- Malconfiguration du bot et des routes wazuh
+- Mauvais token
