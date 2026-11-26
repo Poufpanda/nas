@@ -4,7 +4,7 @@
 
 ## Installation
 - Lancé avec Docker (lien vers le docker-compose.yml)
-- Port interne : 8096
+- Port interne : 8096 (Ce service est connecte maintenant grace a un reseau local nginx et accessible via son nom de container soit jellyfin)
 - Accessible via : https://jellyfin.jaimelesfilms.duckdns.org
 
 ## Données et configuration
