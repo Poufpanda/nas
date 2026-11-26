@@ -1,0 +1,14 @@
+networks:
+  proxy-network:
+    external: true
+
+
+services:
+  monsite:
+    image: nginx:alpine
+    container_name: monsite
+    restart: unless-stopped
+    volumes:
+      - ./src/usr/share/nginx/html:ro
+    networks:
+      - proxy-network
