@@ -27,7 +27,7 @@ Fail2ban est installé. Il est peu sollicité aujourd'hui car je n'ouvre pas de 
 Plutôt que d'ouvrir un port SSH sur Internet, j'ai configuré **Tailscale** (VPN maillé) comme accès de secours. Il permet d'atteindre le serveur depuis l'extérieur via un réseau privé chiffré, sans exposer de port supplémentaire.
 
 ### Supervision
-Une instance Wazuh (installation minimale) est en place.
+Une instance Wazuh surveille le serveur. Un bot Python me prévient par message dès qu'une alerte atteint le niveau 9 ([détails](services/bot.md)).
 
 ## Choix assumé : pas de SSH exposé
 
