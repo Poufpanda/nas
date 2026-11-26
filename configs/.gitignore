@@ -1,0 +1,15 @@
+# Secrets
+.env
+*.env
+!.env.example
+ 
+# Données et configurations des services (bases, clés, sauvegardes)
+config/
+data/
+cache/
+letsencrypt/
+ 
+# Exports et sauvegardes
+*.json
+*.bak
+*.tar.gz
