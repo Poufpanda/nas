@@ -7,7 +7,7 @@ Jellyfin permet d'accéder à mes films et séries stockés sur le serveur, depu
 - Lancé avec Docker ([docker-compose.yml](../compose/jellyfin/docker-compose.yml))
 - Port interne : 8096, non publié sur l'hôte
 - Connecté à nginx par un réseau Docker partagé : nginx le joint via le nom de conteneur `jellyfin`
-- Accessible via : https://jellyfin.<mon-domaine>.duckdns.org
+- Accessible via : https://jellyfin.mon-domaine.duckdns.org
 
 ## Données et configuration
 - Médias : `/media/films` et `/media/series`
