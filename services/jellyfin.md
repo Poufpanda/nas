@@ -6,7 +6,7 @@ Jellyfin permet d'accéder à du contenu multimédia (films, séries) stocké su
 ## Installation
 - Lancé avec Docker (lien vers le docker-compose.yml)
 - Port interne : 8096 (Ce service est connecte maintenant grace a un reseau local nginx et accessible via son nom de container soit jellyfin)
-- Accessible via : https://jellyfin.jaimelesfilms.duckdns.org
+- Accessible via : https://jellyfin.mondomaine.duckdns.org
 
 ## Données et configuration
 - Les fichiers sont stockes sur un fichier a part (/media)
