@@ -39,3 +39,4 @@ Je n'ai pas ouvert de port SSH car je ne m'en sers pas depuis l'extérieur. Cela
 - Décrire la mise à jour régulière des images Docker et du système.
 - Ajouter un modèle de menaces simple : ce que je protège, contre quoi, et par quels moyens.
 - Isoler les conteneurs dans des réseaux Docker distincts si ce n'est pas encore le cas.
+- Enlever certains services qui n'ont pas besoin d'etre exposés
