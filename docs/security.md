@@ -15,7 +15,7 @@ Le serveur est accessible depuis Internet, donc la surface d'exposition est réd
 Mon fournisseur d'accès (Free) m'a permis de configurer une adresse IPv4 fixe, ce qui rend l'accès distant stable et prévisible.
 
 ### Pare-feu (UFW)
-Tous les ports sans utilité sont fermés. Seuls les ports strictement nécessaires aux services publiés sont ouverts. *(À compléter : politique par défaut, liste des ports ouverts et justification de chacun, sans publier la configuration exacte si le dépôt est public.)*
+Tous les ports sans utilité sont fermés. Seuls les ports strictement nécessaires aux services publiés sont ouverts.
 
 ### Reverse proxy et TLS (nginx)
 Les services sont publiés derrière un reverse proxy nginx avec des certificats TLS, donc en HTTPS. Les conteneurs ne sont pas exposés directement.
@@ -27,7 +27,7 @@ Fail2ban est installé. Il est peu sollicité aujourd'hui car je n'ouvre pas de 
 Plutôt que d'ouvrir un port SSH sur Internet, j'ai configuré **Tailscale** (VPN maillé) comme accès de secours. Il permet d'atteindre le serveur depuis l'extérieur via un réseau privé chiffré, sans exposer de port supplémentaire.
 
 ### Supervision
-Une instance Wazuh (installation minimale) est en place. *(À compléter : ce qui est surveillé et un exemple d'alerte traitée.)*
+Une instance Wazuh (installation minimale) est en place.
 
 ## Choix assumé : pas de SSH exposé
 
