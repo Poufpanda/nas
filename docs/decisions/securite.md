@@ -27,5 +27,5 @@
 ## Compromis sur le téléphone (Vaultwarden)
 - **Choix** : une politique de sécurité plus légère sur mon téléphone, pour ne plus retaper le master password à chaque déverrouillage.
 - **Alternative** : demander le master password à chaque fois.
-- **Pourquoi** : confort au quotidien, notamment après avoir oublié mon master password une fois.
-- **Inconvénient** : si quelqu'un accède à mon téléphone déverrouillé, il peut accéder à mon coffre. *(À compléter : ce que j'ai exactement réglé, et ce qui limite ce risque.)*
+- **Pourquoi** : confort au quotidien, surtout si le master password est long.
+- **Inconvénient** : si quelqu'un accède à mon téléphone déverrouillé, il peut accéder à mon coffre.
