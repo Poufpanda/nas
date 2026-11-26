@@ -21,8 +21,8 @@
 ## Pourquoi Wazuh, et le seuil de niveau 9 pour le bot
 - **Choix** : Wazuh pour la supervision, et une alerte du bot dès le niveau 9.
 - **Alternative** : pas de supervision, ou un seuil plus bas.
-- **Pourquoi** : *(à compléter : pourquoi 9, par exemple pour éviter trop de bruit)*.
-- **Inconvénient** : *(à compléter : par exemple le risque de rater des alertes de niveau inférieur)*.
+- **Pourquoi** : Pour éviter d'avoir trop de bruit (la plupart des alertes en dessous du niveau 9 ne sont pas des brèches de sécurités).
+- **Inconvénient** : Il est possible de rater des brèches du systeme.
 
 ## Compromis sur le téléphone (Vaultwarden)
 - **Choix** : une politique de sécurité plus légère sur mon téléphone, pour ne plus retaper le master password à chaque déverrouillage.
