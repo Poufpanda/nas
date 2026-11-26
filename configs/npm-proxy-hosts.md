@@ -13,9 +13,9 @@ Réglages communs à tous les hôtes :
 | `jellyfin.<mon-domaine>` | jellyfin | 8096 | oui |
 | `vaultwarden.<mon-domaine>` | vaultwarden | 80 | oui |
 | `qbittorrent.<mon-domaine>` | qbittorrent | 8080 | non |
-| `radarr.<mon-domaine>` | radarr | 7878 | oui |
-| `sonarr.<mon-domaine>` | sonarr | 8989 | oui |
-| `prowlarr.<mon-domaine>` | prowlarr | 9696 | oui |
+| `radarr.<mon-domaine>` | radarr | 7878 | non |
+| `sonarr.<mon-domaine>` | sonarr | 8989 | non |
+| `prowlarr.<mon-domaine>` | prowlarr | 9696 | non |
 
 *(À vérifier : que chaque ligne correspond à mes réglages réels, notamment le domaine de Prowlarr.)*
 
