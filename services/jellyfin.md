@@ -1,6 +1,7 @@
 # Jellyfin
 
-## Permet d'acceder a du contenu multimedia stockes sur un serveur
+## À quoi ça sert
+Jellyfin permet d'accéder à du contenu multimédia (films, séries) stocké sur mon serveur, depuis n'importe quel appareil.
 
 ## Installation
 - Lancé avec Docker (lien vers le docker-compose.yml)
