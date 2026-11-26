@@ -25,7 +25,7 @@
 - **Inconvénient** : ce n'est pas le produit officiel, donc moins de garanties de support.
 
 ## Pourquoi un bot en Python
-- **Choix** : un bot Python relié à Wazuh, avec Discord comme canal de messages *(à confirmer)*.
+- **Choix** : un bot Python relié à Wazuh, avec Discord comme canal de messages.
 - **Alternative** : consulter les alertes à la main dans Wazuh.
 - **Pourquoi** : Python est facile à intégrer, et je connaissais déjà les bases d'un bot Discord. Le bot m'alerte même quand je ne regarde pas Wazuh, et me permet de vérifier l'état du serveur à distance.
 - **Inconvénient** : un composant de plus à maintenir et à protéger (token, accès à Docker).
