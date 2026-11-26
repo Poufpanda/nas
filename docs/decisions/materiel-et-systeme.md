@@ -3,7 +3,7 @@
 ## Pourquoi ce PC (HP Omen 15)
 - **Choix** : un ancien PC portable HP Omen 15 (2015) que je n'utilisais plus.
 - **Alternative** : un serveur neuf, ou un autre de mes anciens PC.
-- **Pourquoi** : c'était la machine avec les meilleures caractéristiques parmi celles que je possédais, et elle a une carte graphique qui peut aider Jellyfin pour le transcodage vidéo *(à préciser : carte intégrée ou dédiée, et si l'accélération matérielle est activée)*. Cela ne m'a rien coûté.
+- **Pourquoi** : c'était la machine avec les meilleures caractéristiques parmi celles que je possédais, et elle a une carte graphique externe au CPU qui peut aider Jellyfin pour le transcodage vidéo. Cela ne m'a rien coûté.
 - **Inconvénient** : matériel ancien, consommation plus élevée qu'un petit serveur dédié.
 
 ## Pourquoi un disque dur d'occasion
