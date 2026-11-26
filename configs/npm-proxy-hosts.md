@@ -17,8 +17,6 @@ Réglages communs à tous les hôtes :
 | `sonarr.<mon-domaine>` | sonarr | 8989 | non |
 | `prowlarr.<mon-domaine>` | prowlarr | 9696 | non |
 
-*(À vérifier : que chaque ligne correspond à mes réglages réels, notamment le domaine de Prowlarr.)*
-
 ## Améliorations prévues
 
 - Restreindre l'accès aux interfaces d'administration (Radarr, Sonarr, Prowlarr, qBittorrent) à Tailscale ou à une liste d'adresses autorisées, avec une « Access List » de Nginx Proxy Manager.
