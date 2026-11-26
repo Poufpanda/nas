@@ -17,5 +17,5 @@ profite des applications de BitWarden mais reste OpenSource, possede un generate
 - Protections particulières : compte avec mot de passe fort, conteneur non joignable directement
 
 ## Problèmes rencontrés
-- Oubli du Master Password, reinstallation du service avec ma backup
+- Oubli du Master Password a sa creation (mot de passe genere aleatoirement, impossible de le redeviner), reinstallation et reconfiguration avec le .json de mes mots de passe
 - Installation d'une politique de securite plus legere sur mon telephone afin de ne plus avoir a mettre le master password a chaque deverouillage
