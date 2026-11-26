@@ -10,13 +10,13 @@
 - **Choix** : un HDD de 1 To d'occasion, récupéré dans un PC portable fonctionnel.
 - **Alternative** : un disque neuf.
 - **Pourquoi** : les disques de mes anciens PC étaient tous défaillants, et les disques neufs étaient trop chers pour ce projet.
-- **Inconvénient** : fiabilité incertaine, et un seul disque est un point de défaillance unique. Une sauvegarde externe est prévue.
+- **Inconvénient** : fiabilité incertaine, et un seul disque est un point de défaillance unique. Une sauvegarde externe est faite.
 
 ## Pourquoi Ubuntu Server
 - **Choix** : Ubuntu Server.
 - **Alternative** : une autre distribution Linux.
 - **Pourquoi** : c'est la distribution que je pense être la plus simple pour un premier serveur auto-hébergé.
-- **Inconvénient** : *(à compléter si j'en vois un)*.
+- **Inconvénient** : Pour l'instant aucun.
 
 ## Pourquoi Docker
 - **Choix** : un conteneur Docker par service.
